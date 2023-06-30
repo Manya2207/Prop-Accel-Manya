@@ -1,0 +1,116 @@
+.about-container {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 4rem;
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: start;
+}
+
+.section_right {
+  margin-top: 6rem;
+  width: 40%;
+}
+
+.section_right h1 {
+  color: #000;
+  margin: 1rem 6rem 2rem;
+  width: 90%;
+  text-align: left;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0em;
+}
+
+.section_right h3 {
+  font-family: "opensans";
+  font-weight: 200;
+  font-size: 18px;
+  width: 80%;
+  margin: 2rem 6rem 6rem 6rem;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.section_left {
+  margin-top: 6rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+  width: 50%;
+}
+.section_left_boxes {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.section_left_boxes-2 {
+  margin-top: 4rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.section_left_boxes-3 {
+  margin-top: 8rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.section_left_box {
+  position: relative;
+  width: 268px;
+  height: 160px;
+}
+
+.srb-1 {
+  border: 0.5px solid #7a3199;
+  border-radius: 10px;
+  height: 100%;
+  margin: auto;
+}
+.srb-2 {
+  border: 0.5px solid #7a3199;
+  border-radius: 10px;
+  height: 100%;
+  margin: auto;
+}
+
+.cardheading {
+  width: 90%;
+  height: 70px;
+  margin: 0 auto;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 1em;
+}
+
+.textcontainer p {
+  padding-right: 1rem;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+}

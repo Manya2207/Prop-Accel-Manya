@@ -1,0 +1,139 @@
+.pricing {
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 10px;
+  justify-content: space-evenly;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.textdiv {
+  width: 30%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.textdiv h1 {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: bolder;
+  letter-spacing: 0em;
+}
+
+.boldsection5h1 {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.wrapper .cards {
+  padding: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.wrapper h2 {
+  font-weight: 200;
+  font-size: 25px;
+  margin-top: 2px;
+  color: #6e336f;
+}
+
+.sub-type {
+  width: fit-content;
+  height: Fixed (37px);
+  padding: 6px 8px;
+  border-radius: 10px;
+  gap: 10px;
+  box-shadow: 0px 10px 30px 0px #9a949440;
+  background-color: #fff;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.sub-active {
+  padding: 3px 9px 3px 9px;
+  border-radius: 10px;
+  gap: 10px;
+  background-color: #e1a6ff66;
+  transition: all 0.2s;
+}
+
+.pricing-card {
+  width: 20%;
+  margin-bottom: 3rem;
+  height: Hug (357px);
+  padding: 35px 27px 35px 27px;
+  border-radius: 10px;
+  border: 0.5px solid #7a3199;
+  background-color: #fff;
+}
+
+.card-title {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: bolder;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.card-plan {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.card-fee {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #7a3199;
+}
+.card-fee-month {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+}
+
+.card-perks {
+  text-align: left;
+  margin-left: -20px;
+}
+
+.pricing-card button {
+  padding: 1.5em;
+  border-radius: 5px;
+  border: 0.5px solid #7a3199;
+  color: #7a3199;
+  background-color: #fff;
+  margin-left: -7em;
+  cursor: pointer;
+}
+
+.premium {
+  background: #7a3199;
+  color: #fff;
+}
+
+.premium p {
+  color: #fff;
+}
