@@ -30,7 +30,7 @@ const Testimonials = () => {
           <div className="myCarousel">
             <div className="carousel-head">
               <img className="lolla" src={Lolla} />
-              <div>
+              <div className="lolla-side-div">
                 <h3>Lolla Smith</h3>
                 <h4>Microsoft</h4>
                 <img className="stars" src={Stars} />
@@ -49,7 +49,7 @@ const Testimonials = () => {
           <div className="myCarousel">
             <div className="carousel-head">
               <img className="lolla" src={Lolla} />
-              <div>
+              <div className="lolla-side-div">
                 <h3>Lolla Smith</h3>
                 <h4>Microsoft</h4>
                 <img className="stars" src={Stars} />
@@ -68,7 +68,7 @@ const Testimonials = () => {
           <div className="myCarousel">
             <div className="carousel-head">
               <img className="lolla" src={Lolla} />
-              <div>
+              <div className="lolla-side-div">
                 <h3>Lolla Smith</h3>
                 <h4>Microsoft</h4>
                 <img className="stars" src={Stars} />

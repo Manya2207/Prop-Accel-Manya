@@ -27,6 +27,15 @@
   width: 30px !important;
   /* height: 60px !important; */
   border-radius: 50%;
+  margin: 10px;
+  padding: 8px;
+}
+
+.lolla-side-div h3,
+h4,
+img {
+  text-align: left;
+  margin-left: 4px;
 }
 
 .myCarousel {
@@ -35,12 +44,7 @@
   height: Hug (300px);
   border-radius: 10px;
   border: 0.5px;
-  background: linear-gradient(
-      0deg,
-      rgba(225, 166, 255, 0.4),
-      rgba(225, 166, 255, 0.4)
-    ),
-    linear-gradient(0deg, #ffffff, #ffffff);
+  background: #fff;
   border: 0.5px solid #e1a6ff66;
   padding: 3em;
 }
